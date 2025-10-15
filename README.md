@@ -135,6 +135,11 @@ command = "node"
 args = ["/absolute/path/to/src/server.js"]
 env = { INTERACTSH_BASE_URL = "https://oast.pro", INTERACTSH_DOMAIN_SUFFIX = "oast.pro" }
 ```
+Or you can add it with:
+
+```bash
+codex mcp add --env INTERACTSH_BASE_URL=https://oast.pro --env INTERACTSH_DOMAIN_SUFFIX=oast.pro interactsh -- npx -y mcp-interactsh
+```
 
 You can verify the configuration with:
 
