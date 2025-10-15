@@ -107,6 +107,15 @@ If you prefer to use a local path (without npx), use:
 }
 ```
 
+Or you can add it with:
+
+```bash
+claude mcp add --transport stdio interactsh \
+    -e INTERACTSH_BASE_URL=https://oast.pro \
+    -e INTERACTSH_DOMAIN_SUFFIX=oast.pro \
+    -- npx -y mcp-interactsh
+```
+
 ## Configure in Codex (TOML)
 
 Codex reads MCP server configuration from `~/.codex/config.toml`. Add an entry like the following:
