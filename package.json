@@ -17,6 +17,24 @@
   "bin": {
     "mcp-interactsh": "bin/mcp-interactsh.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tachote/mcp-interactsh.git"
+  },
+  "homepage": "https://github.com/tachote/mcp-interactsh#readme",
+  "bugs": {
+    "url": "https://github.com/tachote/mcp-interactsh/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.20.0",
     "zod": "^3.25.76"
